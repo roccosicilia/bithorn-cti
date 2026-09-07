@@ -1,0 +1,37 @@
+# Virtual environment
+.venv/
+venv/
+env/
+dev/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+dev
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Test / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Django static/media generated files
+staticfiles/
+media/
